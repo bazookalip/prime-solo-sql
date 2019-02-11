@@ -9,4 +9,8 @@
 
 7. SELECT * FROM "accounts" WHERE "account_balance" > 100;
 
-8. 
+8. INSERT INTO "accounts" ("username", "city", "transactions_completed", "transactions_attempted", "account_balance")
+VALUES ('larry', 'minneapolis', 0,0,0);
+
+
+9. DELETE FROM "accounts" WHERE "city" = 'miami' OR "city" = 'phoenix' AND  "account_balance" < 5; 
